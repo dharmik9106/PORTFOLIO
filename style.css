@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Permanent+Marker&family=Rubik+Glitch&family=Trade+Winds&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -15,18 +15,29 @@
 
 
 .nav{
-    background-color: rgb(248, 247, 247);
+    background-color: rgb(255, 255, 255);
 
 }
 
 .navbar{
-    background: #312d2d;
+    background: #fffefe;
 }
 
 
 .active{
-    background: #709dd8;
+    background: #ffffff;
     
+}
+
+.font {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-2 {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
