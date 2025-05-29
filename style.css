@@ -1,45 +1,122 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Monofett&family=Permanent+Marker&family=Rubik+Glitch&family=Trade+Winds&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 
-
-.container{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.nav{
-    background-color: rgb(255, 255, 255);
+.nav {
+	background-color: rgb(255, 255, 255);
 
 }
 
-.navbar{
-    background: #fffefe;
+.navbar {
+	background: #fffefe;
 }
 
 
-.active{
-    background: #ffffff;
-    
+.active {
+	background: #ffffff;
+
 }
 
 .font {
-  font-family: "Rubik Glitch", system-ui;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Rubik Glitch", system-ui;
+	font-weight: 400;
+	font-style: normal;
 }
+
 .font-2 {
-  font-family: "Trade Winds", system-ui;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Trade Winds", system-ui;
+	font-weight: 300;
+	font-style: normal;
 }
 
 
 
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
 
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+
+	.swiper {
+      margin: 100px auto;
+      width: 320px;
+      height: 240px;
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .swiper-slide:nth-child(1n) {
+      background-color: white;
+	  color: black;
+	  
+    }
+
+    .swiper-slide:nth-child(2n) {
+      background-color: white;
+	  color: black;
+    }
+
+    .swiper-slide:nth-child(3n) {
+    background-color: white;
+	color: black;
+    }
+
+    .swiper-slide:nth-child(4n) {
+ 	background-color: white;
+	color: black;
+    }
+
+    .swiper-slide:nth-child(5n) {
+	background-color: white;
+	color: black;
+    }
+
+    .swiper-slide:nth-child(6n) {
+ 	background-color: white;
+	color: black;
+    }
+
+    .swiper-slide:nth-child(7n) {
+    background-color: white;
+	color: black;    }
+
+    .swiper-slide:nth-child(8n) {
+      background-color: white;
+	  color: black;   }
+
+    .swiper-slide:nth-child(9n) {
+ 	background-color: white;
+	color: black;
+    }
+
+    .swiper-slide:nth-child(10n) {
+      background-color: transparent;
+	  color:black;    }
