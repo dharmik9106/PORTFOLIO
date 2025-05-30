@@ -1,122 +1,204 @@
 @import url('https://fonts.googleapis.com/css2?family=Monofett&family=Permanent+Marker&family=Rubik+Glitch&family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-
-.nav {
-	background-color: rgb(255, 255, 255);
-
-}
-
-.navbar {
-	background: #fffefe;
-}
-
 
 .active {
-	background: #ffffff;
+  background: #ffffff;
 
 }
 
 .font {
-	font-family: "Rubik Glitch", system-ui;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .font-2 {
-	font-family: "Trade Winds", system-ui;
-	font-weight: 300;
-	font-style: normal;
+  font-family: "Trade Winds", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-3 {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
-	.swiper {
-      margin: 100px auto;
-      width: 320px;
-      height: 240px;
-    }
+.swiper {
+  margin: 100px auto;
+  width: 320px;
+  height: 240px;
+}
 
-    .swiper-slide {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 30px;
-      font-weight: bold;
-    }
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
 
-    .swiper-slide:nth-child(1n) {
-      background-color: white;
-	  color: black;
-	  
-    }
+.swiper-slide:nth-child(1n) {
+  background-color: white;
+  color: black;
 
-    .swiper-slide:nth-child(2n) {
-      background-color: white;
-	  color: black;
-    }
+}
 
-    .swiper-slide:nth-child(3n) {
-    background-color: white;
-	color: black;
-    }
+.swiper-slide:nth-child(2n) {
+  background-color: white;
+  color: black;
+}
 
-    .swiper-slide:nth-child(4n) {
- 	background-color: white;
-	color: black;
-    }
+.swiper-slide:nth-child(3n) {
+  background-color: white;
+  color: black;
+}
 
-    .swiper-slide:nth-child(5n) {
-	background-color: white;
-	color: black;
-    }
+.swiper-slide:nth-child(4n) {
+  background-color: white;
+  color: black;
+}
 
-    .swiper-slide:nth-child(6n) {
- 	background-color: white;
-	color: black;
-    }
+.swiper-slide:nth-child(5n) {
+  background-color: white;
+  color: black;
+}
 
-    .swiper-slide:nth-child(7n) {
-    background-color: white;
-	color: black;    }
+.swiper-slide:nth-child(6n) {
+  background-color: white;
+  color: black;
+}
 
-    .swiper-slide:nth-child(8n) {
-      background-color: white;
-	  color: black;   }
+.swiper-slide:nth-child(7n) {
+  background-color: white;
+  color: black;
+}
 
-    .swiper-slide:nth-child(9n) {
- 	background-color: white;
-	color: black;
-    }
+.swiper-slide:nth-child(8n) {
+  background-color: white;
+  color: black;
+}
 
-    .swiper-slide:nth-child(10n) {
-      background-color: transparent;
-	  color:black;    }
+.swiper-slide:nth-child(9n) {
+  background-color: white;
+  color: black;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: transparent;
+  color: black;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+.class {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  margin: auto;
+  width:1320px;
+  height: 500px;
+  transition: all 400ms;
+}
+
+.class:hover .box {
+  filter: grayscale(100%) opacity(24%);
+}
+
+.box {
+  position: relative;
+  background: var(--img) center center;
+  background-size: cover;
+  transition: all 400ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class .box:hover {
+  filter: grayscale(0%) opacity(100%);
+}
+
+.class:has(.box-1:hover) {
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.class:has(.box-2:hover) {
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+.class:has(.box-3:hover) {
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+}
+
+.class:has(.box-4:hover) {
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+}
+
+.class:has(.box-5:hover) {
+  grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.box:nth-child(odd) {
+  transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+  transform: translateY(16px);
+}
+
+.box::after {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 20px;
+  background: #000;
+  color: #fff;
+  padding: 10px 10px 10px 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  transform: translateY(60px);
+  opacity: 0;
+  transition: all 400ms;
+}
+
+.box:hover::after {
+  transform: translateY(0);
+  opacity: 1;
+  transition-delay: 400ms;
+}
