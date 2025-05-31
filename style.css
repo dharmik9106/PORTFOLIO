@@ -499,14 +499,59 @@ section {
   }
 }
 
-/*
-@media (max-width: 750px) {
-  .content {    
-     flex-direction: column-reverse;
-  }
-  
-  .btn {
-    margin: 10px auto 40px;
-  }
+
+.image{
+  height: 100px;
+  width: 90px;
 }
-*/
+
+
+.part{
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 19px;
+}
+.part:hover{
+  box-shadow: rgba(171, 35, 224, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
+.part1{
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 19px;
+}
+.part1:hover{
+  box-shadow: rgba(255, 230, 0, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
+.part2{
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 19px;
+}
+.part2:hover{
+  box-shadow: rgba(255, 115, 0, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
+.part3{
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 19px;
+}
+.part3:hover{
+  box-shadow: rgba(0, 255, 64, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
+.part4{
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 19px;
+}
+.part4:hover{
+  box-shadow: rgba(0, 81, 255, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
+.part5{
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 19px;
+}
+.part5:hover{
+  box-shadow: rgba(140, 0, 255, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
+.part6{
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 19px;
+}
+.part6:hover{
+  box-shadow: rgba(165, 204, 236, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
