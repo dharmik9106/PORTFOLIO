@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Monofett&family=Permanent+Marker&family=Rubik+Glitch&family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -5,6 +7,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+.d1{
+  background-color: oklch(0.21 0.03 263.45);
 }
 
 .active {
@@ -41,6 +47,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
+  background-size: cover;
   background: white;
   display: flex;
   justify-content: center;
@@ -555,7 +562,6 @@ section {
   box-shadow: rgba(165, 204, 236, 0.726) 0px 4px 16px, rgba(5, 161, 223, 0.05) 0px 8px 32px;
   border-radius: 10px;
 }
-
 
 
 
