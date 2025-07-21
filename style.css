@@ -1,6 +1,4 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,11 +10,13 @@
     background-color: #0a192f;
 
 }
-.color{
+
+.color {
     color: #1db954;
     font-size: 50px;
     font-family: Space Grotesk, sans-serif;
 }
+
 .button-58 {
     padding: 10px 40px;
     font-size: 18px;
@@ -87,148 +87,183 @@
     box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
 }
 
-.menu:hover{
+.menu:hover {
     color: #008542;
-    
+
 }
 
-.button-1:hover{
+.button-1:hover {
     background-color: #f1e1d9;
     scroll-timeline: 2px;
 }
-.button-1{
-    background-color:#008542;
+
+.button-1 {
+    background-color: #008542;
     height: 60px;
     width: 60px;
 }
-.para-light{
+
+.para-light {
     color: #fff;
     font-family: Space Grotesk, sans-serif;
     font-size: 24px;
 }
-.para-1{
+
+.para-1 {
     padding: 18px 27px;
     width: 100%;
 }
 
 button {
-  margin: 20px;
+    margin: 20px;
 }
+
 .custom-btn {
-  width: 130px;
-  height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
-  outline: none;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
 }
 
 .btn-15 {
-  background: #1db954;
-  border: none;
-  /* padding: 0px 5px !important;
+    background: #1db954;
+    border: none;
+    /* padding: 0px 5px !important;
   margin-bottom: 20px; */
-  z-index: 1;
+    z-index: 1;
 }
+
 .btn-15:after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 100%;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  text-align: center !important;
-  justify-content: center !important;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    text-align: center !important;
+    justify-content: center !important;
 
-  background-color: #ffffff;
-  border-radius: 50px;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
-  transition: all 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
 }
+
 .btn-15:hover {
-   color:#0a192f;
-   border-radius:10px ;
-}
-.btn-15:hover:after {
-  left: 0;
-  width: 100%;
+    color: #0a192f;
+    border-radius: 10px;
 }
 
-.para-2{
+.btn-15:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.para-2 {
     background: #112240;
 }
-.github{
+
+.github {
     border: 1px solid white;
+    transition: all 0.5s;
 }
 
-.github:hover{
+.github:hover {
     border: 0px;
+    color: #008542;
     background-color: rgb(46, 43, 43);
 }
 
-.link{
+.gith {
+    border: 1px solid white;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.gith:hover {
+    border: 0px;
+    scale: 1.1;
+    color: #008542;
+}
+
+.link {
     border: 1px solid white;
 }
-.link:hover{
+
+.link:hover {
     border: 0px;
     background-color: oklch(.715 .143 215.221);
 }
-.whatsapp{
+
+.whatsapp {
     border: 1px solid white;
 }
-.whatsapp:hover{
+
+.whatsapp:hover {
     border: 0px;
-    background-color:#1db954;
+    background-color: #1db954;
 }
 
-.ds-link{
+.ds-link {
     border: 1px solid white;
-
+    transition: all 0.5s;
 }
-.img:hover{
 
+.ds-link:hover {
+    border: 0px;
+    color: #008542;
+}
+
+.img:hover {
     scale: 1.1;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
 
-}
-.ds-link:hover{
-    border: 0px;
-    transform: none;
-}
-.padding{
+.padding {
     max-width: 1200px;
     line-height: 1.5;
     font-weight: 400;
 }
-.bit{
+
+.bit {
     transition: all !important;
 }
-.bit:hover{
+
+.bit:hover {
     transform: translateY(-20px) !important;
     transition-duration: initial;
     box-shadow: black !important;
 }
-.bgcolor{
+
+.bgcolor {
     background-color: #0a192f;
-    
 }
-.text-1{
+
+.text-1 {
     color: #0a192f;
-
 }
 
-.color-pro{
-        color: #008542;
+.color-pro {
+    color: #008542;
 }
+
+.margin {
+    margin-top: 15%;
+}
+
