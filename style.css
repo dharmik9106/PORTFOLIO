@@ -1,0 +1,234 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.bg-color {
+    padding: 30px;
+    background-color: #0a192f;
+
+}
+.color{
+    color: #1db954;
+    font-size: 50px;
+    font-family: Space Grotesk, sans-serif;
+}
+.button-58 {
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: #008542;
+    color: #fff;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 0;
+    z-index: 1;
+    user-select: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: unset;
+    padding: .8rem 1.5rem;
+    text-decoration: none;
+    font-weight: 900;
+    transition: all 0.7s cubic-bezier(0, .8, .26, .99);
+}
+
+.button-58:before {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    transition: .7s cubic-bezier(0, .8, .26, .99);
+    z-index: -1;
+    background-color: #008542 !important;
+    box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
+}
+
+.button-58:after {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+    transition: .7s cubic-bezier(0, .8, .26, .99);
+}
+
+.button-58:hover:before {
+    border-radius: 70px;
+    background-color: #fff;
+    box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset, -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
+}
+
+.button-58:hover:after {
+    color: #008542;
+    box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+}
+
+.button-58:active {
+    transform: translateY(4px);
+}
+
+.button-58:active:after {
+    box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
+}
+
+.menu:hover{
+    color: #008542;
+    
+}
+
+.button-1:hover{
+    background-color: #f1e1d9;
+    scroll-timeline: 2px;
+}
+.button-1{
+    background-color:#008542;
+    height: 60px;
+    width: 60px;
+}
+.para-light{
+    color: #fff;
+    font-family: Space Grotesk, sans-serif;
+    font-size: 24px;
+}
+.para-1{
+    padding: 18px 27px;
+    width: 100%;
+}
+
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-15 {
+  background: #1db954;
+  border: none;
+  /* padding: 0px 5px !important;
+  margin-bottom: 20px; */
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  text-align: center !important;
+  justify-content: center !important;
+
+  background-color: #ffffff;
+  border-radius: 50px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+   color:#0a192f;
+   border-radius:10px ;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.para-2{
+    background: #112240;
+}
+.github{
+    border: 1px solid white;
+}
+
+.github:hover{
+    border: 0px;
+    background-color: rgb(46, 43, 43);
+}
+
+.link{
+    border: 1px solid white;
+}
+.link:hover{
+    border: 0px;
+    background-color: oklch(.715 .143 215.221);
+}
+.whatsapp{
+    border: 1px solid white;
+}
+.whatsapp:hover{
+    border: 0px;
+    background-color:#1db954;
+}
+
+.ds-link{
+    border: 1px solid white;
+
+}
+.img:hover{
+
+    scale: 1.1;
+
+}
+.ds-link:hover{
+    border: 0px;
+    transform: none;
+}
+.padding{
+    max-width: 1200px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.bit{
+    transition: all !important;
+}
+.bit:hover{
+    transform: translateY(-20px) !important;
+    transition-duration: initial;
+    box-shadow: black !important;
+}
+.bgcolor{
+    background-color: #0a192f;
+    
+}
+.text-1{
+    color: #0a192f;
+
+}
+
+.color-pro{
+        color: #008542;
+}
