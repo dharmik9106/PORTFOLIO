@@ -168,11 +168,11 @@ button {
     color: #0a192f;
     border-radius: 10px;
 }
-
 .btn-15:hover:after {
     left: 0;
     width: 100%;
 }
+
 
 .para-2 {
     background: #112240;
@@ -210,13 +210,14 @@ button {
     background-color: oklch(.715 .143 215.221);
 }
 
-.whatsapp {
+.email {
     border: 1px solid white;
+    transition: all 0.5s;
 }
 
-.whatsapp:hover {
+.email:hover {
     border: 0px;
-    background-color: #1db954;
+    scale: 1.1;
 }
 
 .ds-link {
