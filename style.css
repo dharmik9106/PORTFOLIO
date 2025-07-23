@@ -137,6 +137,57 @@ button {
     outline: none;
 }
 
+.hover-btn:hover {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.text-light-blue {
+    color: oklch(.554 .046 257.417)
+}
+
+.bg-light-blue {
+    background-color: oklch(.554 .046 257.417)
+}
+
+.hover-btn-2:hover {
+    background-color: oklch(.968 .007 247.896);
+    color: black !important;
+}
+
+.n-1 {
+    backdrop-filter: blur(10px)
+}
+
+.hover-btn-3:hover {
+    transform: scale(1.4);
+    transition: all 0.5s;
+
+    /* transform: translatey(-10px ); */
+}
+
+.us:after{
+    transform-origin: 0% 50%;
+}
+
+.us:hover:after {
+    transform: scaleX(1);
+}
+
+.us:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #ffffff;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.us{     
+    display:inline-block; 
+}
+
 .btn-15 {
     background: #1db954;
     border: none;
@@ -168,6 +219,7 @@ button {
     color: #0a192f;
     border-radius: 10px;
 }
+
 .btn-15:hover:after {
     left: 0;
     width: 100%;
@@ -269,25 +321,25 @@ button {
 }
 
 .button-33 {
-  background-color: #c2fbd7;
-  border-radius: 100px;
-  box-shadow: rgba(94, 116, 102, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-  color: green;
-  cursor: pointer;
-  display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 7px 20px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
-  border: 0;
-  font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(94, 116, 102, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .button-33:hover {
-  box-shadow: rgba(65, 83, 72, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+    box-shadow: rgba(65, 83, 72, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
 }
