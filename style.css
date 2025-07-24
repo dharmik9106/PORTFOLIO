@@ -103,6 +103,38 @@
     width: 60px;
 }
 
+.o1{
+    filter: blur(1px);
+    opacity: 1;
+}
+.o2{
+    filter: blur(1px);
+    opacity: 1;
+}
+.o3{
+    filter: blur(1px);
+    opacity: 1;
+}
+.o4{
+    filter: blur(1px);
+    opacity: 1;
+}
+.o5{
+    filter: blur(1px);
+    opacity: 1;
+}
+.o6{
+    filter: blur(1px);
+    opacity: 1;
+}
+.o7{
+    filter: blur(1px);
+    opacity: 1;
+}
+.o8{
+    filter: blur(1px);
+    opacity: 1;
+}
 .para-light {
     color: #fff;
     font-family: Space Grotesk, sans-serif;
@@ -259,6 +291,7 @@ button {
 
 .link:hover {
     border: 0px;
+    scale: 2.3;
     background-color: oklch(.715 .143 215.221);
 }
 
@@ -269,7 +302,8 @@ button {
 
 .email:hover {
     border: 0px;
-    scale: 1.1;
+    background-color: #2762c7;
+
 }
 
 .ds-link {
@@ -366,7 +400,7 @@ button {
     padding-bottom: 10px;
 }
 
-.edu-card {
+.ec {
     margin-bottom: 30px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -378,25 +412,25 @@ button {
     transition: all 0.3s ease;
 }
 
-.edu-card:hover {
+.ec:hover {
     background-color: rgba(0, 0, 0, 0.4);
     transform: scale(1.02);
 }
 
-.edu-card:nth-child(2) {
+.ec:nth-child(2) {
     animation-delay: 0.3s;
 }
 
-.edu-card:nth-child(3) {
+.ec:nth-child(3) {
     animation-delay: 0.6s;
 }
 
-.edu-card h3 {
+.ec h3 {
     margin-bottom: 10px;
     color: #00e6e6;
 }
 
-.edu-card p {
+.ec p {
     margin: 5px 0;
     color: #ddd;
 }
