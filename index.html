@@ -14,18 +14,19 @@
 
 <body class="bg-color">
     <!-- *********************navbar - start********************  -->
-    <nav class="navbar navbar-expand-lg bg-color shadow ">
+    <nav class="navbar navbar-expand-lg bg-color shadow fixed-top">
         <div class="container-fluid ">
 
 
 
-            <button class="button-1 text-1 fs-1 fw-bold mb-4 mt-0 rounded-5 border-0"> <a class="nav-link "
+            <button class="button-1 text-1 fs-1 fw-bold mb-4 lin mt-0 rounded-5  border-0"> <a class="nav-link "
                     href="#">D</a></button>
 
 
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                style="background-color: antiquewhite;">
+                <span class="navbar-toggler-icon text-light"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav m-auto">
@@ -47,12 +48,17 @@
                     <li class="nav-item">
                         <a class="menu nav-link text-light fw-bold fs-5 us hover-btn " href="#Projects">Projects</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="menu nav-link text-light fw-bold fs-5 us hover-btn " href="#Education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu nav-link text-light fw-bold fs-5 us hover-btn " href="#Contact">Contact</a>
+                    </li>
 
                 </ul>
 
-
-                <button class="custom-btn btn-15  rounded-pill fs-5 fw-bold para-1">Let'Talk</button>
-
+                <a href="#Contact">
+                    <button class="custom-btn btn-15  rounded-pill fs-5 fw-bold para-1">Let'Talk</button></a>
             </div>
         </div>
     </nav>
@@ -61,9 +67,9 @@
 
     <section>
 
-        <div class="container" id="home">
-            <div class="row border-3">
-                <div class="col mt-5 pt-5 ">
+        <div class="container my-5" id="home">
+            <div class="row border-3 my-5 ">
+                <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5 ">
                     <h2 class="para-light fs-3 fw-bold " data-aos-easing="ease-in-sine" data-aos="fade-down"
                         data-aos-duration="1500">Hello, I'm Dharmik Sanga</h2>
                     <p class="color pt-3  fw-bold" data-aos-easing="ease-in-sine" data-aos="fade-right"
@@ -75,15 +81,11 @@
                         UI/UX</p>
                 </div>
 
-                <div class="col border  mt-5 ">
-                    <img src="img/dharmik.jpg" class="img-fluid  rounded-pill">
-
+                <div class="col mt-5 center my-5">
+                    <img src="img/dharmik.jpg" class="gooey  rounded-pill mt-4">
                 </div>
-                <div class="btn border-0 d-flex ">
-                    <div class=" text-center " data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">
-                        <button class="custom-btn btn-15 rounded-pill para-1 fw-bold px-4 text-center">Let'Talk</button>
-                    </div>
-                    <div class="gap-3 d-flex " data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">
+                <div class="btn border-0 d-flex">
+                    <div class="gap-3 d-flex  " data-aos="fade-up" data-aos-offset="0" data-aos-duration="2000">
                         <a href="https://github.com/dharmik9106/" class="nav-link "><i
                                 class="ri-github-fill  github fs-1  p-2 gap-3 rounded-5 text-light "></i></a>
                         <a href="https://www.linkedin.com/in/dharmik-ahir-9a7587351/" class="nav-link "><i
@@ -103,14 +105,14 @@
         <hr class="text-light border-2 mt-5">
 
         <div class="container my-5 text-light  justify-contect-between">
-            <div class="row mt-auto mb-auto ">
-                <div class="col-4 ">
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
                     <h2>FAST LEARNER</h2>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <h2>TEAMWORK</h2>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <h2>DETAIL ORIENTED</h2>
                 </div>
             </div>
@@ -121,29 +123,27 @@
 
     <!-- **************************section -3 About Page Start************************* -->
     <section>
-        <div class="container w-2 py-5" id="about" ;>
+        <div class="container w-2 py-5" id="about">
             <div class="row">
-                <div class="display-4 fw-bold  text-center " style="color: #15d1e9">About</div>
-                <div class="col py-4">
-                    <p class=" padding text-light  fs-5 sm-text mx-5">"I’m Dharmik Ahir, a passionate and results-driven
-                        Full Stack Developer with a deep love for building smart, scalable, and user-focused web
-                        applications. With expertise in both front-end and back-end development, I bring complete
+                <div class="display-4 fw-bold text-center" style="color: #15d1e9">About</div>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <p class=" padding text-light  fs-5 ">"I’m Dharmik Ahir, a passionate
+                        and results-driven Full Stack Developer with a deep love for building smart, scalable,
+                        and user-focused web applications. With expertise in both front-end and back-end development, I
+                        bring complete
                         solutions to life — from designing responsive interfaces to building powerful backend systems.
-                        <br>I specialize in technologies like HTML, CSS, JavaScript, React, Node.js, Express.js, and
-                        MongoDB, and I enjoy turning complex challenges into clean, efficient code. My development
+                        I specialize in technologies like HTML, CSS, JavaScript, React, Node.js, Express.js, and
+                        MongoDB, and I enjoy turning complex challenges into clean, efficient code. <br> My development
                         approach combines creativity, logic, and a strong focus on performance and user experience."
                     </p>
                 </div>
-                <div class=" text-center ">
-                    <button class="custom-btn btn-15 para-1 fs-5  text-center">Let'Talk</button>
+                <div class="text-center">
+                    <a href="#Contact">
+                        <button class="custom-btn btn-15  rounded-pill fs-5 fw-bold para-1">Let'Talk</button></a>
                 </div>
-
             </div>
         </div>
-
     </section>
-
-
     <!-- **************************section -4 Language Page Start************************* -->
 
     <section>
@@ -208,19 +208,17 @@
             </div>
         </div>
     </section>
-
     <!--**************section -5 Services Page start***************-->
 
-    <section class="mt-5">
+    <section class="mt-5 justify-contect-center">
         <div class=" text-center fw-bold display-3" id="Services" style="color:#1db954">Services</div>
         <div class="container mt-5">
-            <div class="row">
-                <div class="col lg-3 md-2 sm-1">
+            <div class="row d-flex mx-auto">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card border-success border-2 rounded-5" style="width: 18rem;">
                         <div class=" p-3 bgcolor rounded-5"> <i
                                 class="fs-4  ri-brush-fill text-light bg-success p-3  rounded-5"></i>
                         </div>
-
                         <div class="card-body bgcolor rounded-5 text-light">
                             <h5 class="card-title">Web Design</h5>
                             <p class="card-text">Design modern UI/UX using HTML5, CSS3, JavaScript.</p>
@@ -228,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col lg-3 md-2 sm-1">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card border-success border-2 rounded-5" style="width: 18rem;">
                         <div class=" p-3 bgcolor  rounded-5 "> <i
                                 class="fs-4 ri-code-box-fill text-light bg-success p-3  rounded-5"></i>
@@ -241,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col lg-3 md-2 sm-1">
+                <div class="col-sm-12 col-md-6 col-lg-4 ">
                     <div class="card border-success border-2 rounded-5" style="width: 18rem;">
                         <div class=" p-3 bgcolor  rounded-5 "> <i
                                 class="fs-4 ri-book-shelf-line text-light bg-success p-3  rounded-5"></i>
@@ -254,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col lg-3 md-2 sm-1 mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
                     <div class="card border-success border-2 rounded-5" style="width: 18rem;">
                         <div class=" p-3 bgcolor  rounded-5 "> <i
                                 class="fs-4 ri-image-circle-fill text-light bg-success p-3  rounded-5"></i>
@@ -267,25 +265,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col lg-3 md-2 sm-1 mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
                     <div class="card border-success border-2 rounded-5" style="width: 18rem;">
                         <div class=" p-3 bgcolor  rounded-5 "> <i
                                 class="fs-4 ri-facebook-circle-fill text-light bg-success p-3  rounded-5"></i>
                         </div>
-
                         <div class="card-body bgcolor rounded-5 text-light">
                             <h5 class="card-title">Full-stack Development</h5>
                             <p class="card-text">Full-stack Crafting complete web solutions, front to back.</p>
-
                         </div>
                     </div>
                 </div>
-                <div class="col lg-3 md-2 sm-1 mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
                     <div class="card border-success border-2 rounded-5" style="width: 18rem;">
                         <div class=" p-3 bgcolor  rounded-5 "> <i
                                 class="fs-4 ri-wechat-channels-line text-light bg-success p-3  rounded-5"></i>
                         </div>
-
                         <div class="card-body bgcolor rounded-5 text-light">
                             <h5 class="card-title">Web Development</h5>
                             <p class="card-text">Web Development Modern. Responsive. Fast. Clean. Impactful.</p>
@@ -296,25 +291,20 @@
             </div>
         </div>
     </section>
-
-
     <!-- **************************section -6 Project Page start************************* -->
 
     <section class="mt-5 pt-3">
-
         <div class="container mt-5" id="Projects">
             <div class="display-3 fw-bold text-center mt-5" style=" color: #1db954;">Projects</div>
-
             <div class="row mt-5">
-                <p class=" col-6 mx-auto text-center fs-4 fw-bold text-light ">I have developed a wide range of web
+                <p class=" col-lg-12 col-md-12 col-sm-12 text-center fs-4 fw-bold text-light ">I have developed a wide
+                    range of web
                     solutions, from responsive
                     websites for small businesses to
                     full-stack applications and complex front-end interfaces, delivering seamless user experiences. </p>
-
             </div>
         </div>
     </section>
-
     <!-- project one portfolio start -->
 
     <section>
@@ -324,7 +314,7 @@
                 <div>
                     <h1 class="color-pro">My Portfolio Website</h1>
                 </div>
-                <div class="col-6 p-3  rounded-3">
+                <div class="col-lg-6 col-md-6 col-sm-12  p-3 rounded-3">
                     <p class="text-light border p-3 fs-5 rounded-3">My portfolio website is a modern, responsive site
                         built
                         with React.js,
@@ -332,16 +322,18 @@
                         navigation, Redux Toolkit for state management, and React Icons for enhanced visuals🚀</p>
                     <div class="ptr-link  d-flex gap-3 mt-3">
                         <div class="git">
-                            <i class="ri-github-fill gith fs-1 p-2 g-3  rounded-5 text-light"></i>
+                            <a href="https://github.com/dharmik9106" class="nav-link">
+                                <i class="ri-github-fill gith fs-1 p-2 g-3  rounded-5 text-light"></i></a>
                         </div>
-                        <div class="ds ">
-                            <i class="ri-link ds-link fs-1 p-2 g-3 rounded-5 text-light "></i>
+                        <div class="ds">
+                            <a href="https://portfolio-cyok.vercel.app/" class="nav-link">
+                                <i class="ri-link ds-link fs-1 p-2 g-3 rounded-5 text-light "></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="" style="overflow: hidden;">
-                        <img src="img/1.png" class="img-fluid img border rounded-3 mb-3 " alt="">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class=" d-flex" style="overflow: hidden;">
+                        <img src="img/project1.png" class="img-fluid img border rounded-3 mb-3 " alt="">
                     </div>
                 </div>
             </div>
@@ -351,29 +343,29 @@
     <!-- project two organic glosary start -->
 
     <section>
-        <div class="container shadow margin bgcolor" data-aos-easing="linear" data-aos-duration="1000"
-            data-aos="fade-left">
+        <div class="container shadow margin bgcolor">
             <div class="row  p-3">
                 <div>
                     <h1 class="color-pro shadow">ORGANIC FOOD GLOSARY</h1>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="" style="overflow: hidden;">
                         <img src="img/1.png" class="img-fluid img border rounded-3 mb-3 " alt="">
                     </div>
                 </div>
-                <div class="col-6 p-3 rounded-3">
-                    <p class="text-light border p-3 fs-5 rounded-3">Organic food refers to agricultural products that
+                <div class="col-lg-6 col-md-6 col-sm-12 p-3 display rounded-3">
+                    <p class="text-light sm-1 border p-3 fs-5 rounded-3">Organic food refers to agricultural products
+                        that
                         are
                         grown and processed without the use of synthetic fertilizers, pesticides, genetically modified
-                        organisms (GMOs), or artificial additives.sustainability, and health benefits.</p>
+                        organisms (GMOs), or artificial additives. and health benefits.</p>
                     <div class="ptr-link  d-flex gap-3 mt-3">
                         <div class="git">
                             <a href="https://github.com/dharmik9106/boostrap/blob/main/bt-project-01/index.html"
                                 class="nav-link">
                                 <i class="ri-github-fill gith fs-1 p-2 g-3 rounded-5 text-light"></i></a>
                         </div>
-                        <div class="ds ">
+                        <div class="ds">
                             <a href="https://organic-food-plum.vercel.app/" class="nav-link">
                                 <i class="ri-link ds-link fs-1 p-2 g-3 rounded-5 text-light "></i></a>
                         </div>
@@ -392,7 +384,7 @@
                 <div>
                     <h1 class="color-pro shadow">ONLINE_LERNING</h1>
                 </div>
-                <div class="col-6 p-3  rounded-3 ">
+                <div class="col-lg-6 col-md-6 col-sm-12 p-3  rounded-3 ">
                     <p class="text-light border p-3 fs-5 rounded-3 ">Online learning ne duniya bhar ke logon ke liye
                         gyaan ka darwaza khol diya hai. Aaj ke digital yug mein, internet ke madhyam se hum kisi bhi
                         samay, kahin se bhi naye skills seekh sakte hain.</p>
@@ -407,7 +399,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="" style="overflow: hidden;">
                         <img src="img/2.png" class="img-fluid img border rounded-3 mb-3 " alt="">
                     </div>
@@ -421,9 +413,9 @@
 
     <!-- Education  page start -->
 
-    <section>
+    <section>n
 
-        <div class="container m-auto ">
+        <div class="container m-auto " id="Education">
             <div class="education mx-auto top">
                 <div class="ss">🎓 My Education</div>
 
@@ -431,15 +423,15 @@
                     <h3>Bachaler of Computer Application</h3>
                     <p><strong>Institute:</strong> CK patel collage, himmatnagar</p>
                     <p><strong>Duration:</strong> 2024 – 2027</p>
-                    <p><strong>Subjects:</strong> B.c.a, b.com, b.a, b.tech</p>
+
                 </div>
 
 
                 <div class="ec">
-                    <h3>Full-Stack Development Cource</h3>
+                    <h3>Full-Stack Development</h3>
                     <p><strong>Institute:</strong> RED & WHITE Multie Media Skill Education, Bhavnagar </p>
                     <p><strong>Duration:</strong> 2025 – 2026</p>
-                    <p><strong>Subjects:</strong> Full-Stack, Web design, Web Development, Ui/ Ux, Graphic desain </p>
+
                 </div>
             </div>
         </div>
@@ -450,16 +442,46 @@
 
     <section>
 
-        <div class="container shadow  margin">
+        <div class="container shadow  margin" id="Contact">
             <div class="display-3 fw-bold text-center mb-4 " style=" color: #1db954;">Contact</div>
 
             <div class="row">
-                <div class="col-6">
-                    <div>
-                        <p class="display-1 fw-bold text-shedow text-success"> GEt in Touch</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <div class="">
+
+                        <div class="card text-center bg border-success border-2 mx-auto  mt-3" style="width: 18rem;">
+                            <div class="card-body text-light">
+                                <i class="ri-mail-line fs-4"></i>
+                                <p class="text-light">Email</p>
+                                <h5 class="" style="font-size: 15px;">sangadharmik78@gmail.com</h5>
+                                <a href="https://mail.google.com/mail/u/0/#inbox" class="nav-link">Send a
+                                    message</a>
+                            </div>
+                        </div>
+
+                        <div class="card bg border-success border-2 text-center mx-auto mt-3" style="width: 18rem;">
+                            <div class="card-body text-light">
+                                <i class="ri-messenger-line fs-4"></i>
+                                <p class="text-light">Linkedin</p>
+                                <h5 class="" style="font-size: 15px;">Dharmik Sanga</h5>
+                                <a href="https://www.linkedin.com/feed/" class="nav-link">Send a
+                                    message</a>
+                            </div>
+                        </div>
+
+                        <div class="card bg border-success border-2 text-center mx-auto mt-3" style="width: 18rem;">
+                            <div class="card-body text-light">
+                                <i class="ri-messenger-line fs-4"></i>
+                                <p class="text-light">WhatsApp</p>
+                                <h5 class="" style="font-size: 15px;">9227101532</h5>
+                                <a href="https://mail.google.com/mail/u/0/#inbox" class="nav-link">Send a
+                                    message</a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-6 mb-5">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
                     <form class="contact-form ">
                         <h2 class="text-success">Contact Us</h2>
                         <input type="text" placeholder="Your Name*" class="fs-5" required>
@@ -474,6 +496,22 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="container-fluid mt-5 bg-dark p-3">
+            <div class="row justify-content-between px-4">
+                <div class="col-12 col-md-6">
+                    <p class="text-light fs-6">© 2025 | Portfolio. All rights reserved.</p>
+                </div>
+                <div class="col-12 col-md-6 text-start text-md-end">
+                    <p class="text-light fs-6">
+                        <a href="https://www.linkedin.com/in/vaishalich2801" class="nav-link">Designed &amp; Developed
+                            with ❤️ by Sanga Dharmik</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
 </script>

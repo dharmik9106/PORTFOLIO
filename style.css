@@ -5,10 +5,15 @@
 
 }
 
+
 .bg-color {
-    padding: 30px;
+
     background-color: #0a192f;
 
+}
+
+.navbar-toggler{
+    background-color: white;
 }
 
 .color {
@@ -17,6 +22,72 @@
     font-family: Space Grotesk, sans-serif;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.gooey{
+  background-image: linear-gradient(120deg, #34e0f0 0%, #b400ff 100%);
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  animation: morph 3s linear infinite; 
+  transform-style: preserve-3d;
+  outline: 1px solid transparent;
+  will-change: border-radius;
+}
+.gooey:before,
+.gooey:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0; top: 0;
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  box-shadow: 5px 5px 89px rgba(0, 102, 255, 0.21);
+  will-change: border-radius, transform, opacity;
+  animation-delay: 200ms;
+  background-image: linear-gradient(120deg, rgba(0,67,255,.55) 0%, rgba(0,103,255,.89) 100%);
+}
+.gooey:before{
+  animation: morph 3s linear infinite;
+  opacity: .21;
+  animation-duration: 1.5s;
+}
+.gooey:after{
+  animation: morph 3s linear infinite;
+  animation-delay: 400ms;
+  opacity: .89;
+  content: "What'cSS up?";
+  line-height: 120px;
+  text-indent: -21px;
+}
+
+@keyframes morph{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    opacity: .89;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes fadeIn{
+  100%{
+    transform: scale(1.03);
+    opacity: 0;
+  }
+}
 .button-58 {
     padding: 10px 40px;
     font-size: 18px;
@@ -67,18 +138,15 @@
     box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
     transition: .7s cubic-bezier(0, .8, .26, .99);
 }
-
 .button-58:hover:before {
     border-radius: 70px;
     background-color: #fff;
     box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset, -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
 }
-
 .button-58:hover:after {
     color: #008542;
     box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
 }
-
 .button-58:active {
     transform: translateY(4px);
 }
@@ -89,9 +157,7 @@
 
 .menu:hover {
     color: #008542;
-
 }
-
 .button-1:hover {
     background-color: #f1e1d9;
     scroll-timeline: 2px;
@@ -164,8 +230,6 @@ button {
 .hover-btn-3:hover {
     transform: scale(1.4);
     transition: all 0.5s;
-
-    /* transform: translatey(-10px ); */
 }
 
 .us:after {
@@ -187,12 +251,9 @@ button {
 .us {
     display: inline-block;
 }
-
 .btn-15 {
     background: #1db954;
     border: none;
-    /* padding: 0px 5px !important;
-  margin-bottom: 20px; */
     z-index: 1;
 }
 
@@ -224,8 +285,6 @@ button {
     left: 0;
     width: 100%;
 }
-
-
 .para-2 {
     background: #112240;
 }
@@ -299,11 +358,18 @@ button {
 .bit {
     transition: all !important;
 }
-
+.lin{
+    transition-duration: 10ms linear;
+}
 .bit:hover {
     transform: translateY(-20px) !important;
-    transition-duration: initial;
+    transition-duration:linear;
+   
     box-shadow: black !important;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bgcolor {
@@ -429,9 +495,6 @@ button {
         font-size: 2rem;
     }
 }
-
-
-
 .contact-form {
     background-color: transparent;
     padding: 30px;
@@ -445,8 +508,6 @@ button {
     margin-bottom: 20px;
     color: #333;
 }
-
-
 
 .contact-form input,
 .contact-form textarea {
@@ -470,7 +531,6 @@ button {
     cursor: pointer;
     width: 100%;
 }
-
 .contact-form button:hover {
     background-color: #0bb0c3;
 }
@@ -510,4 +570,8 @@ button {
 
     .btn-green:hover::before {
       left: 100%;
+    }
+
+    .bg{
+        background-color: transparent !important;
     }
